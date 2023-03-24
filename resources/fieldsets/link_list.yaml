@@ -1,0 +1,45 @@
+title: 'Link List Block'
+fields:
+  -
+    handle: list_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'List title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: link_list
+    field:
+      fields:
+        -
+          handle: link_title
+          field:
+            input_type: text
+            antlers: false
+            display: 'Link title'
+            type: text
+            icon: text
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+        -
+          handle: link_url
+          field:
+            display: 'Link url'
+            type: link
+            icon: link
+            listable: hidden
+            instructions_position: above
+            visibility: visible
+      mode: table
+      reorderable: true
+      display: 'Link list'
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
