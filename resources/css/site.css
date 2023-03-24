@@ -1,1 +1,9 @@
 /* This is all you. */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}

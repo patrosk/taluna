@@ -15,155 +15,21 @@
 /*!************************************!*\
   !*** ./resources/css/tailwind.css ***!
   \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):\nSyntaxError: Unexpected token (12:22)\n    at pp$4.raise (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2927:15)\n    at pp.unexpected (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:698:10)\n    at pp.expect (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:692:28)\n    at pp$3.parseObj (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2563:14)\n    at pp$3.parseExprAtom (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2302:19)\n    at _class.parseExprAtom (/Users/aerendil/Developer/taluna/node_modules/acorn-node/lib/dynamic-import/index.js:77:117)\n    at pp$3.parseExprSubscripts (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2129:21)\n    at pp$3.parseMaybeUnary (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2106:19)\n    at _class.parseMaybeUnary (/Users/aerendil/Developer/taluna/node_modules/acorn-node/lib/private-class-elements/index.js:122:54)\n    at pp$3.parseExprOps (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2041:21)\n    at pp$3.parseMaybeConditional (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2024:21)\n    at pp$3.parseMaybeAssign (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:1997:21)\n    at pp$3.parsePropertyValue (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2630:89)\n    at pp$3.parseProperty (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2621:10)\n    at pp$3.parseObj (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2567:23)\n    at pp$3.parseExprAtom (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2302:19)\n    at _class.parseExprAtom (/Users/aerendil/Developer/taluna/node_modules/acorn-node/lib/dynamic-import/index.js:77:117)\n    at pp$3.parseExprSubscripts (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2129:21)\n    at pp$3.parseMaybeUnary (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2106:19)\n    at _class.parseMaybeUnary (/Users/aerendil/Developer/taluna/node_modules/acorn-node/lib/private-class-elements/index.js:122:54)\n    at pp$3.parseExprOps (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2041:21)\n    at pp$3.parseMaybeConditional (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2024:21)\n    at pp$3.parseMaybeAssign (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:1997:21)\n    at pp$3.parseMaybeAssign (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:2010:25)\n    at pp$3.parseExpression (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:1963:21)\n    at pp$1.parseStatement (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:886:47)\n    at _class.parseStatement (/Users/aerendil/Developer/taluna/node_modules/acorn-node/lib/dynamic-import/index.js:65:118)\n    at pp$1.parseTopLevel (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:755:23)\n    at _class.parse (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:555:17)\n    at Function.parse (/Users/aerendil/Developer/taluna/node_modules/acorn/dist/acorn.js:578:37)\n    at Object.parse (/Users/aerendil/Developer/taluna/node_modules/acorn-node/index.js:30:28)\n    at parse (/Users/aerendil/Developer/taluna/node_modules/detective/index.js:22:18)\n    at exports.find (/Users/aerendil/Developer/taluna/node_modules/detective/index.js:47:15)\n    at module.exports (/Users/aerendil/Developer/taluna/node_modules/detective/index.js:26:20)\n    at createModule (/Users/aerendil/Developer/taluna/node_modules/tailwindcss/lib/lib/getModuleDependencies.js:20:45)\n    at getModuleDependencies (/Users/aerendil/Developer/taluna/node_modules/tailwindcss/lib/lib/getModuleDependencies.js:27:24)\n    at getTailwindConfig (/Users/aerendil/Developer/taluna/node_modules/tailwindcss/lib/lib/setupTrackingContext.js:45:58)\n    at /Users/aerendil/Developer/taluna/node_modules/tailwindcss/lib/lib/setupTrackingContext.js:97:92\n    at /Users/aerendil/Developer/taluna/node_modules/tailwindcss/lib/processTailwindFeatures.js:46:11\n    at plugins (/Users/aerendil/Developer/taluna/node_modules/tailwindcss/lib/plugin.js:38:63)\n    at LazyResult.runOnRoot (/Users/aerendil/Developer/taluna/node_modules/postcss/lib/lazy-result.js:339:16)\n    at LazyResult.runAsync (/Users/aerendil/Developer/taluna/node_modules/postcss/lib/lazy-result.js:393:26)\n    at async Object.loader (/Users/aerendil/Developer/taluna/node_modules/postcss-loader/dist/index.js:97:14)\n    at processResult (/Users/aerendil/Developer/taluna/node_modules/webpack/lib/NormalModule.js:760:19)\n    at /Users/aerendil/Developer/taluna/node_modules/webpack/lib/NormalModule.js:862:5\n    at /Users/aerendil/Developer/taluna/node_modules/loader-runner/lib/LoaderRunner.js:400:11\n    at /Users/aerendil/Developer/taluna/node_modules/loader-runner/lib/LoaderRunner.js:252:18\n    at context.callback (/Users/aerendil/Developer/taluna/node_modules/loader-runner/lib/LoaderRunner.js:124:13)\n    at Object.loader (/Users/aerendil/Developer/taluna/node_modules/postcss-loader/dist/index.js:142:7)");
 
 /***/ })
 
 /******/ 	});
 /************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/chunk loaded */
-/******/ 	(() => {
-/******/ 		var deferred = [];
-/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
-/******/ 			if(chunkIds) {
-/******/ 				priority = priority || 0;
-/******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
-/******/ 				deferred[i] = [chunkIds, fn, priority];
-/******/ 				return;
-/******/ 			}
-/******/ 			var notFulfilled = Infinity;
-/******/ 			for (var i = 0; i < deferred.length; i++) {
-/******/ 				var [chunkIds, fn, priority] = deferred[i];
-/******/ 				var fulfilled = true;
-/******/ 				for (var j = 0; j < chunkIds.length; j++) {
-/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
-/******/ 						chunkIds.splice(j--, 1);
-/******/ 					} else {
-/******/ 						fulfilled = false;
-/******/ 						if(priority < notFulfilled) notFulfilled = priority;
-/******/ 					}
-/******/ 				}
-/******/ 				if(fulfilled) {
-/******/ 					deferred.splice(i--, 1)
-/******/ 					var r = fn();
-/******/ 					if (r !== undefined) result = r;
-/******/ 				}
-/******/ 			}
-/******/ 			return result;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		// no baseURI
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"/js/site": 0,
-/******/ 			"css/tailwind": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
-/******/ 		
-/******/ 		// install a JSONP callback for chunk loading
-/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
-/******/ 			var [chunkIds, moreModules, runtime] = data;
-/******/ 			// add "moreModules" to the modules object,
-/******/ 			// then flag all "chunkIds" as loaded and fire callback
-/******/ 			var moduleId, chunkId, i = 0;
-/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
-/******/ 				for(moduleId in moreModules) {
-/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
-/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
-/******/ 					}
-/******/ 				}
-/******/ 				if(runtime) var result = runtime(__webpack_require__);
-/******/ 			}
-/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
-/******/ 			for(;i < chunkIds.length; i++) {
-/******/ 				chunkId = chunkIds[i];
-/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
-/******/ 					installedChunks[chunkId][0]();
-/******/ 				}
-/******/ 				installedChunks[chunkId] = 0;
-/******/ 			}
-/******/ 			return __webpack_require__.O(result);
-/******/ 		}
-/******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk"] = self["webpackChunk"] || [];
-/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
-/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
-/******/ 	})();
-/******/ 	
-/************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/tailwind"], () => (__webpack_require__("./resources/js/site.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/tailwind"], () => (__webpack_require__("./resources/css/tailwind.css")))
-/******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
+/******/ 	__webpack_modules__["./resources/js/site.js"]();
+/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./resources/css/tailwind.css"]();
 /******/ 	
 /******/ })()
 ;

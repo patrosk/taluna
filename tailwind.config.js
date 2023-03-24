@@ -8,6 +8,9 @@ module.exports = {
   theme: {
     extend: {},
   },
+  colors: {
+    'green': '#00D186',
+  },
   plugins: [
     require('@tailwindcss/typography'),
   ],

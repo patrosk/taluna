@@ -7,14 +7,14 @@
         <title>{{ title ?? site:name }}</title>
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}" />
     </head>
-    <body class="bg-gray-100 font-sans leading-normal text-gray-800">
+    <body class="bg-zinc-900 font-sans leading-normal text-[#00D186]">
         <header>{{ partial:nav }}</header>
         <div
             class="mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center"
         >
             {{ template_content }}
         </div>
-        <footer>{{ partial:footer}}</footer>
+        <div>{{ partial:footer}}</div>
         <script src="{{ mix src='/js/site.js' }}"></script>
     </body>
 </html>
