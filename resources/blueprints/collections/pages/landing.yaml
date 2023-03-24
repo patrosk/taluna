@@ -3,13 +3,29 @@ sections:
   main:
     display: Main
     fields:
-      - handle: title
+      -
+        handle: title
         field:
           type: text
           required: true
           validate:
             - required
-      - handle: subtitle
+      -
+        handle: logo
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Logo
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: subtitle
         field:
           input_type: text
           antlers: false
@@ -19,24 +35,44 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
-      - handle: teaser
+      -
+        handle: description
+        field:
+          antlers: false
+          display: Description
+          type: textarea
+          icon: textarea
+          instructions: 'Add text that will be displayed under the subtitle'
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: quote
         field:
           input_type: text
           antlers: false
-          display: Teaser
+          display: Quote
           type: text
           icon: text
           listable: hidden
           instructions_position: above
           visibility: visible
+      -
+        import: link_list
+        prefix: first_
+      -
+        import: link_list
+        prefix: second_
   sidebar:
     display: Sidebar
     fields:
-      - handle: slug
+      -
+        handle: slug
         field:
           type: slug
           localizable: true
-      - handle: parent
+      -
+        handle: parent
         field:
           type: entries
           collections:

@@ -1,3 +1,30 @@
 <section>
-    <h1>TALUNA</h1>
+    <h1>{{title}}</h1>
+    <h2>{{subtitle}}</h2>
+    <p>{{description}}</p>
+    <p class="quote">{{quote}}</p>
+    <ul class="partners">
+        <h3>{{first_list_title}}</h3>
+        {{ first_link_list }}
+        <li>
+            {{if link_url }}
+            <a target="blank" href="http://{{link_url}}">{{link_title}}</a>
+            {{else}}
+            <p>{{link_title}}</p>
+            {{/if}}
+        </li>
+        {{/first_link_list }}
+    </ul>
+    <ul class="founders">
+        <h3>{{second_list_title}}</h3>
+        {{ second_link_list }}
+        <li>
+            {{if link_url}}
+            <a target="blank" href="http://{{link_url}}">{{link_title}}</a>
+            {{else}}
+            <p>{{link_title}}</p>
+            {{/if}}
+        </li>
+        {{/second_link_list }}
+    </ul>
 </section>
