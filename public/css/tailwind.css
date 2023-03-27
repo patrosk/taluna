@@ -539,6 +539,12 @@ a:hover {
 .quote {
   text-align: center;
   font-style: italic;
+  --tw-text-opacity: 1;
+  color: rgb(0 209 134 / var(--tw-text-opacity));
+}
+
+.founders {
+  text-align: right;
 }
 
 .flex {
@@ -549,7 +555,52 @@ a:hover {
   height: 3.5rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.text-orange-200 {
+  --tw-text-opacity: 1;
+  color: rgb(240 103 0 / var(--tw-text-opacity));
+}
+
+.text-green-700 {
+  --tw-text-opacity: 1;
+  color: rgb(21 128 61 / var(--tw-text-opacity));
+}
+
+.text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(0 209 134 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 

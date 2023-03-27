@@ -1,1 +1,22 @@
-<nav class="h-14 flex items-center">TALUNA</nav>
+<nav class="h-14 flex items-center justify-between px-2">
+    {{ header }}
+    <a href="/" class="flex items-center gap-2">
+        {{ logo }}
+        <img src="{{ url }}" alt="{{ alt }}" class="h-10" />
+        {{ /logo }}
+        <span>{{title}}</span>
+    </a>
+    {{ /header }}
+
+    <ul class="flex gap-2">
+        {{ nav:collection:pages }}
+        <li>
+            <a
+                href="{{ url }}"
+                class="{{ is_current ?= 'text-green-600 underline'}}"
+                >{{ title }}</a
+            >
+        </li>
+        {{ /nav:collection:pages }}
+    </ul>
+</nav>

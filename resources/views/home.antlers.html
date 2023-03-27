@@ -1,5 +1,9 @@
 <section>
+    {{ if logo }} {{ logo }}
+    <img src="{{ url }}" alt="{{ alt }}" />
+    {{ /logo }} {{ else }}
     <h1>{{title}}</h1>
+    {{ /if }}
     <h2>{{subtitle}}</h2>
     <p>{{description}}</p>
     <p class="quote">{{quote}}</p>

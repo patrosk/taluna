@@ -27,5 +27,8 @@ a:hover {
     @apply text-orange-200;
 }
 .quote {
-    @apply italic text-center;
+    @apply italic text-center text-green-600;
+}
+.founders {
+    @apply text-right;
 }
