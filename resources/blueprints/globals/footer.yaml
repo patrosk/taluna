@@ -3,13 +3,26 @@ sections:
     display: Main
     fields:
       -
-        handle: title
+        handle: logo_large
         field:
-          input_type: text
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: 'Logo large'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: paragraph
+        field:
           antlers: false
-          display: Title
-          type: text
-          icon: text
+          display: Paragraph
+          type: textarea
+          icon: textarea
           listable: hidden
           instructions_position: above
           visibility: visible
@@ -28,16 +41,11 @@ sections:
           instructions_position: above
           visibility: visible
       -
-        handle: logo_large
+        handle: right_panel
         field:
-          mode: list
-          container: assets
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          display: 'Logo large'
-          type: assets
-          icon: assets
+          display: 'Right panel'
+          type: list
+          icon: list
           listable: hidden
           instructions_position: above
           visibility: visible
@@ -52,3 +60,5 @@ sections:
           listable: hidden
           instructions_position: above
           visibility: visible
+      -
+        import: link_list_block_with_images

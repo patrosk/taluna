@@ -491,22 +491,40 @@ footer {
   background-color: rgb(42 43 42 / var(--tw-bg-opacity));
 }
 
-.main {
-  margin-left: auto;
-  margin-right: auto;
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.main {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+
+  .main {
+    margin: 4rem;
+  }
 }
 
 @media (min-width: 1024px) {
 
   .main {
+    margin-left: 8rem;
+    margin-right: 8rem;
     min-height: 100vh;
   }
+}
+
+.content {
+  max-width: 48rem;
 }
 
 h1 {
@@ -537,6 +555,10 @@ a:hover {
 }
 
 .quote {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
   text-align: center;
   font-style: italic;
   --tw-text-opacity: 1;
@@ -544,23 +566,73 @@ a:hover {
 }
 
 .founders {
+  margin-top: 2rem;
   text-align: right;
+}
+
+.partners {
+  margin-top: 4rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .flex {
   display: flex;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-14 {
   height: 3.5rem;
 }
 
-.h-2 {
-  height: 0.5rem;
+.h-32 {
+  height: 8rem;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-4 {
+  height: 1rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -575,24 +647,17 @@ a:hover {
   gap: 0.5rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.gap-4 {
+  gap: 1rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.text-orange-200 {
-  --tw-text-opacity: 1;
-  color: rgb(240 103 0 / var(--tw-text-opacity));
-}
-
-.text-green-700 {
-  --tw-text-opacity: 1;
-  color: rgb(21 128 61 / var(--tw-text-opacity));
 }
 
 .text-green-600 {
@@ -602,5 +667,12 @@ a:hover {
 
 .underline {
   text-decoration-line: underline;
+}
+
+@media (min-width: 1024px) {
+
+  .lg\:max-w-3xl {
+    max-width: 48rem;
+  }
 }
 

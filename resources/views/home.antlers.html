@@ -1,11 +1,11 @@
-<section>
+<section class="content">
     {{ if logo }} {{ logo }}
     <img src="{{ url }}" alt="{{ alt }}" />
     {{ /logo }} {{ else }}
     <h1>{{title}}</h1>
     {{ /if }}
     <h2>{{subtitle}}</h2>
-    <p>{{description}}</p>
+    <p class="my-3">{{description}}</p>
     <p class="quote">{{quote}}</p>
     <ul class="partners">
         <h3>{{first_list_title}}</h3>

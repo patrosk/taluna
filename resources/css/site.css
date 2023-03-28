@@ -11,8 +11,14 @@ header,
 footer {
     @apply bg-gray-500;
 }
+header {
+    @apply flex flex-col justify-between items-center;
+}
 .main {
-    @apply mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center;
+    @apply m-4 md:m-16 lg:mx-32 px-2 lg:min-h-screen flex flex-col items-center;
+}
+.content {
+    @apply max-w-3xl;
 }
 h1 {
     @apply text-4xl font-bold text-green-600;
@@ -27,8 +33,11 @@ a:hover {
     @apply text-orange-200;
 }
 .quote {
-    @apply italic text-center text-green-600;
+    @apply italic text-center text-green-600 my-12 mx-24;
 }
 .founders {
-    @apply text-right;
+    @apply text-right mt-8;
+}
+.partners {
+    @apply mt-16;
 }

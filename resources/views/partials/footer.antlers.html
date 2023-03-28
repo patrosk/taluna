@@ -1,1 +1,41 @@
-<footer class="h-14 flex items-center">This is the footer</footer>
+<footer class="h-64 flex flex-col items-center">
+    {{ footer }}
+    <div class="panels flex w-full justify-between">
+        <div class="left-panel">
+            <a href="/">
+                {{ logo_large }}
+                <img class="h-24" src="{{url}}" alt="{{alt}}" />
+                {{ /logo_large }}
+            </a>
+            <p class="w-80">{{paragraph}}</p>
+        </div>
+        <div class="center-panel">
+            <h5>{{ list_title }}</h5>
+            <ul class="flex gap-4">
+                {{ list }}
+                <li>
+                    <a target="blank" href="{{list_item_url}}">
+                        {{ list_item_title }} {{ list_item_image }}
+                        <img class="h-12" src="{{url}}" alt="{{alt}}" />
+                        {{ /list_item_image }}
+                    </a>
+                </li>
+                {{ /list }}
+            </ul>
+        </div>
+        <div class="right-panel">
+            <ul>
+                {{ right_panel }}
+                <li>{{ value }}</li>
+                {{ /right_panel }}
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>{{ copyright }}</p>
+        {{ logo_small }}
+        <img class="h-12 rounded-full" src="{{url}}" alt="{{alt}}" />
+        {{ /logo_small }}
+    </div>
+    {{ /footer }}
+</footer>

@@ -1,1 +1,26 @@
 title: Footer
+data:
+  logo_large:
+    - 'taluna logo3.1.png'
+  paragraph: 'Culture and education as a tool for cooperation, empowerment, equality and sustainable development.'
+  logo_small:
+    - dragonfly-3-for-fb.png
+  right_panel:
+    - TALUNA
+    - 'c/o Vinkeloe, Vänersborgsvägen 65'
+    - '441 92 Alingsås, Sweden'
+  copyright: '© 2023 TALUNA'
+  list_title: 'Follow us!'
+  list:
+    -
+      id: lfrwxik0
+      list_item_title: Instagram
+      list_item_image:
+        - dragonfly-3-for-fb.png
+      list_item_url: www.instagram.com
+    -
+      id: lfrx1v5s
+      list_item_title: Facebook
+      list_item_image:
+        - dragonfly-3-for-fb.png
+      list_item_url: www.facebook.com
