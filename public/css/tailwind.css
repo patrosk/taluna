@@ -587,48 +587,36 @@ a:hover {
   height: 2.5rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-14 {
   height: 3.5rem;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
-.h-4 {
-  height: 1rem;
 }
 
 .h-24 {
   height: 6rem;
 }
 
-.h-12 {
-  height: 3rem;
+.w-1\/2 {
+  width: 50%;
 }
 
-.h-64 {
-  height: 16rem;
+.w-1\/6 {
+  width: 16.666667%;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-44 {
-  width: 11rem;
-}
-
-.w-52 {
-  width: 13rem;
+.w-2\/6 {
+  width: 33.333333%;
 }
 
 .w-80 {
   width: 20rem;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
+.w-full {
+  width: 100%;
 }
 
 .flex-col {
@@ -671,8 +659,16 @@ a:hover {
 
 @media (min-width: 1024px) {
 
+  .lg\:h-64 {
+    height: 16rem;
+  }
+
   .lg\:max-w-3xl {
     max-width: 48rem;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 }
 

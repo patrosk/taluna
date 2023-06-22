@@ -1,7 +1,7 @@
-<footer class="h-64 flex flex-col items-center">
+<footer class="footer lg:h-64 flex flex-col items-center">
     {{ footer }}
-    <div class="panels flex w-full justify-between">
-        <div class="left-panel">
+    <div class="panels flex flex-col lg:flex-row justify-between">
+        <div class="left-panel w-1/2">
             <a href="/">
                 {{ logo_large }}
                 <img class="h-24" src="{{url}}" alt="{{alt}}" />
@@ -9,7 +9,7 @@
             </a>
             <p class="w-80">{{paragraph}}</p>
         </div>
-        <div class="center-panel">
+        <div class="center-panel w-1/6">
             <h5>{{ list_title }}</h5>
             <ul class="flex gap-4">
                 {{ list }}
@@ -23,7 +23,7 @@
                 {{ /list }}
             </ul>
         </div>
-        <div class="right-panel">
+        <div class="right-panel w-2/6">
             <ul>
                 {{ right_panel }}
                 <li>{{ value }}</li>
